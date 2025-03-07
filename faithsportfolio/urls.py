@@ -5,7 +5,7 @@ from faithsportfolio import views
 
 urlpatterns = [
 
-    path('home/', views.index,name='home'),
+    path('', views.index,name='home'),
     path('service/', views.services,name='service'),
     path('starter/', views.starter,name='starter'),
     path('about/', views.about,name='about'),
